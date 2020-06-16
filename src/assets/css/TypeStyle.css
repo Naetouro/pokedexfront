@@ -1,0 +1,59 @@
+.type {
+    width: 7vw;
+    border-radius: 0.5em;
+    text-align: center;
+    color: white;
+    padding: 2px 0 2px 0;
+}
+
+.plante {
+    background-color: green;
+}
+.poison {
+    background-color: purple;
+}
+.normal {
+    background-color: grey;
+}
+.eau {
+    background-color: deepskyblue;
+}
+.electrique {
+    background-color: gold;
+}
+.feu{
+    background: red;
+}
+.dragon{
+    background-color: mediumblue;
+}
+.acier{
+    background-color: silver;
+}
+.sol{
+    background-color: saddlebrown;
+}
+.roche{
+    background-color: sandybrown;
+}
+.spectre{
+    background-color: rebeccapurple;
+}
+.tenebre{
+    background-color: black;
+}
+.vol{
+    background-color: lightskyblue;
+}
+.combat{
+    background-color: brown;
+}
+.glace{
+    background-color: cyan;
+}
+.insect{
+    background-color: darkolivegreen;
+}
+.psy{
+    background-color: hotpink;
+}
