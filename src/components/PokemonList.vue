@@ -69,7 +69,7 @@ export default {
       let idUser = (id = localStorage.getItem("id")) === null ? 0 : id;
       axios
         .post(
-          "http://localhost:8083/pokedex/pokemonUser",
+          "https://gatewaypokedex.herokuapp.com/pokedex/pokemonUser",
           { headers: { "Content-Type": "application/json" } },
           {
             data: {
@@ -91,7 +91,7 @@ export default {
       let idUser = (id = localStorage.getItem("id")) === null ? 0 : id;
 
       axios
-        .delete("http://localhost:8083/pokedex/pokemonUser", {
+        .delete("https://gatewaypokedex.herokuapp.com/pokedex/pokemonUser", {
           data: {
             idUser: idUser,
             idPokemon: idPokemon
