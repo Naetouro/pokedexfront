@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const uri = "https://gatewaypokedex.herokuapp.com/pokedex/pokedex";
+const uri = "https://gatewaypokedex.herokuapp.com/pokedex";
 
 export function login(name, password) {
   return axios
